@@ -123,7 +123,7 @@ ___
     ```
 5. Накатываем миграции:
    ```bash
-   python alembic upgrade head
+   alembic upgrade head
    ```
 6. Заполняем базу данных локациями:
    ```bash
